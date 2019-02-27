@@ -5,9 +5,9 @@
 This problem is a well-known classic; we present it primarily as an
 opportunity for you to try out the interactive judging system.
 
-We are thinking of an integer P within the range $(A,B]$ - that is, $A < P \leq B$.
-You have $N$ tries to guess our number. After each guess that is not correct, we
-will tell you whether $P$ is higher or lower than your guess.
+We are thinking of an integer P within the range **(A,B]** - that is, **A < P <= B**.
+You have **N** tries to guess our number. After each guess that is not correct, we
+will tell you whether **P** is higher or lower than your guess.
 
 ## Input and output 
 
@@ -28,11 +28,11 @@ a local testing tool script (in Python) is provided at the very end of the
 problem statement.
 
 Initially, your program should read a single line containing a single integer
-$T$ indicating the number of test cases. Then, you need to process $T$ test cases.
+**T** indicating the number of test cases. Then, you need to process **T** test cases.
 
 For each test case, your program will read a single line with two integers
-$A$ and $B$, representing the exclusive lower bound and inclusive upper bound, as
-described above. In the next line, you will read a single integer $N$,
+**A** and **B**, representing the exclusive lower bound and inclusive upper bound, as
+described above. In the next line, you will read a single integer **N**,
 representing the maximum number of guesses you can make. Your program will
 process up to N exchanges with our judge.
 
@@ -53,9 +53,9 @@ Answer, Runtime Error, etc.) instead of a Time Limit Exceeded error. As usual,
 if the total time or memory is exceeded, or your program gets a runtime error,
 you will receive the appropriate verdict.
 
-If your test case is solved within $N$ tries, you will receive the CORRECT
+If your test case is solved within **N** tries, you will receive the CORRECT
 message from the judge, as mentioned above, and then continue to get input (a
-new line with two integers $A$ and $B$, etc.) for the next test case. After
+new line with two integers **A** and **B**, etc.) for the next test case. After
 N tries, if the test case is not solved, the judge will print WRONG_ANSWER and
 then stop sending output to your input stream.
 
@@ -65,16 +65,16 @@ receiving CORRECT for the last test case, you will get a Wrong Answer judgment.
 
 ## Limits
 
-$1 \leq T \leq 20.$ \
-$A = 0.$\
-$N = 30.$ \
+**1 \<= T \<= 20.** \
+**A = 0.**\
+**N = 30.** \
 Time limit: 10 seconds per test set. \
 Memory limit: 1GB.
 
 ## Test set 1 (Visible) 
 
-$B = 30.$
+**B = 30.**
 
 ## Test set 2 (Hidden)
 
-$B = 10^{9}$
+**B = 10⁹**
