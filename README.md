@@ -1,2 +1,2 @@
-# google-kickstart
+# Google Kickstart
 My solutions to Google Kickstart coding competition
