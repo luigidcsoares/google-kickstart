@@ -62,19 +62,3 @@ then stop sending output to your input stream.
 You should not send additional information to the judge after solving all test
 cases. In other words, if your program keeps printing to standard output after
 receiving CORRECT for the last test case, you will get a Wrong Answer judgment.
-
-## Limits
-
-**1 \<= T \<= 20.** \
-**A = 0.**\
-**N = 30.** \
-Time limit: 10 seconds per test set. \
-Memory limit: 1GB.
-
-## Test set 1 (Visible) 
-
-**B = 30.**
-
-## Test set 2 (Hidden)
-
-**B = 10⁹**
