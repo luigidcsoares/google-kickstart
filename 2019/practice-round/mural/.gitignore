@@ -1,0 +1,9 @@
+# Python testing script.
+testing_tool.py
+
+# Output files.
+bin/
+
+# Input & output tests.
+*.in
+*.out
